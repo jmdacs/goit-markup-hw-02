@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto';
+  }
+
+.header01 {
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+}
+
+.filter-row {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
