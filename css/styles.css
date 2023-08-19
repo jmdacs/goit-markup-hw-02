@@ -32,8 +32,8 @@ body {
 
 }
 
-h2,
-h3 {
+section02-names,
+section03-names {
     color: var(--navyblue, #2E2F42);
     text-align: center;
 }
