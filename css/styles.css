@@ -21,6 +21,9 @@ body {
     text-align: center;
 }
 
+h2, h3{
+    text-align: left;
+}
 .button-hero{
     display: inline-flex;
     padding: 16px 32px;
