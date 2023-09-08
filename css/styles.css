@@ -56,13 +56,13 @@ button {
     border-bottom: 1px solid var(--cornflower) ;
 }
 
-.nav-ul {
+.nav-list {
     color: var(--navyblue);
     width: 1;
     height: 1;
 }
 
-.nav-li-menu {
+.nav-item-link {
     color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
@@ -71,11 +71,11 @@ button {
     letter-spacing: 0.32px;
 }
 
-.nav-li-menu:hover, .addr-link:hover {
+.nav-item-link:hover, .address-item-link:hover {
     color: var(--ocean);
 }
 
-.addr-ul {
+.address-list {
     color: var(--slate);
     font-size: 16px;
     font-style: normal;
@@ -93,14 +93,15 @@ button {
 }
 
 
-.hero-section {
+.hero {
     width: 1440px;
     height: 225px;
     flex-shrink: 0;
 
     background: var(--navyblue);
 }
-.header01 { 
+
+.hero-title { 
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -114,7 +115,7 @@ button {
 h2, h3{
     text-align: left;
 }
-.button-hero{
+.hero-button{
     text-transform: capitalize;
     border-radius: 4px;
     background: var(--iris);
@@ -131,7 +132,7 @@ h2, h3{
 
 }
 
-.sec-fea-title{
+.features-item-title{
     background-color: var(--white);
     color: var(--navyblue);
     font-size: 20px;
@@ -140,7 +141,7 @@ h2, h3{
     line-height: 24px;  
 }
 
-.sec-fea-desc{
+.features-item-description{
     background-color: var(--white);
     color: var(--slate);
     font-size: 16px;
@@ -149,11 +150,11 @@ h2, h3{
     line-height: 24px;  
 }
 
-.section03 {
+.team {
     background-color: var(--cloud);
 }
 
-.section03-title{
+.team-title{
     background-color: var(--cloud);
     color: var(--navyblue);
     font-size: 36px;
@@ -161,7 +162,7 @@ h2, h3{
     font-weight: 700;
     line-height: 40px;  
 }
-.section03-names{
+.team-item-title{
     background-color: var(--cloud);
     color: var(--slate);
     font-size: 20px;
@@ -171,7 +172,7 @@ h2, h3{
 
     text-align: center;
 }
-.section03-desc{
+.team-item-description{
     background-color: var(--cloud);
     color: var(--slate);
     font-size: 16px;
@@ -185,26 +186,16 @@ h2, h3{
 
 
 
-.port-filter-ul {
+.menu-list {
     align-items: flex-start;
     gap: 24px;
     background-color: var(--white);
     color: var(--iris)
 }
 
-.port-li-button{
-    text-transform: capitalize;
-    border-radius: 4px;
-    background-color: var(--iris);
-    color: var(--white);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    padding: 12px 24px;
-}
 
-.port-li-button-other{
+
+.menu-item-button{
     text-transform: capitalize;
     border-radius: 4px;
     background-color: var(--cloud);
@@ -217,7 +208,7 @@ h2, h3{
     border: 1px solid var(--cornflower);
 }
 
-.port-li-button-other:hover{
+.menu-item-button:hover{
     background: var(--ocean);
     color: var(--white);
     border-color: var(--ocean);
@@ -227,7 +218,7 @@ h2, h3{
     0px 3px 1px 0px rgba(0, 0, 0, 0.18);
 }
 
-.footerlogo{
+.footer-link{
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
@@ -238,7 +229,7 @@ h2, h3{
     text-transform: uppercase;
 }
 
-.footertext{
+.footer-description{
     width: 264px;
     color: var(--cloud);
     /* Body */
